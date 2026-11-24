@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Skippy
+GenericName=Desktop Pet
+GenericName[tr]=Masaüstü Arkadaşı
+Comment=Sarcastic desktop pet bullet with reminders, mini games and voice commands
+Comment[tr]=Hatırlatıcı, mini oyun ve sesli komutlu alaycı masaüstü mermisi
+Exec=skippy
+Icon=skippy
+Terminal=false
+Categories=Utility;Game;
+StartupNotify=false
+StartupWMClass=skippy

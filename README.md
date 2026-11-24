@@ -1,2 +1,15 @@
-# Skippy-
-İts a deskop pet virtual asistant who inspired by Cyberpunk 2077 videogame. İts my first project and i made it with cloude AI. I put original skippy images in a another folder but in first open, its not looks like skippy because of  copyrights. You must chance  on skins folder. Also its working on manjaro linux. İ dont test it in another computer or OS
+# Skippy – desktop pet / Masaüstü arkadaşı
+
+**Kur / Install** (Manjaro / any Linux):
+
+    sudo pacman -S python-pyqt6                       # gerekli / required
+    sudo pacman -S qt6-multimedia espeak-ng python-numpy alsa-utils   # isteğe bağlı / optional
+    cd packaging && ./install.sh
+
+Sonra uygulama menüsünden **Skippy** ya da terminalde `skippy`. Kaldırmak için `./uninstall.sh`.
+Pacman paketi için: `cd packaging && makepkg -si`.
+
+**Dil / Language:** Ayarlar → 🌐 Language / Dil (uygulama yeniden başlar) ya da `skippy --lang en`.
+İlk açılışta sistem diline göre seçilir.
+
+Notlar: pencereler görev çubuğunda görünmez, sistem bildirimi gönderilmez, internet / API kullanılmaz (sohbet yereldir).
